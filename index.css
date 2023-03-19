@@ -1,52 +1,58 @@
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+
 body {
     background-color: hsl(212, 45%, 89%);
 }
 
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
+main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .content {
     background-color: white;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 10px;
-    padding-right: 10px;
-    display: block;
-    width: 15%;
-    border-radius: 25px;
+    margin: 0 auto;
+    padding: 15px;
+    width: 20%;
+    border-radius: 15px;
 }
 
 .qrcode {
-    width: 95%;
-    padding-top: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
     display: block;
-    border-radius: 27px;
+    border-radius: 10px;
 }
 
-p {
+.text {
+    margin: 0 15px;
     text-align: center;
-    font-size: 15px;
-    font-family: 'Outfit', sans-serif;
+    font-family: "Outfit", sans-serif;
 }
 
 .title {
-    font-weight: 700;
-    font-size: x-large;
+    font-weight: 650;
     color: hsl(218, 44%, 22%);
+    font-size: 25px;
 }
 
 .scan {
     color: grey;
     font-weight: 400;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin: 0 15px;
+    font-size: 15px;
 }
 
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
