@@ -56,3 +56,54 @@ main {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+/* Media Queries */
+
+
+@media screen and (max-width: 1090px){
+  
+    .content {
+        width: 25%;
+        height: 60%;
+    }
+  
+    .text {
+        margin: 0;
+    }
+      
+  }
+  
+  
+@media screen and (max-width: 913px){
+  
+    .content {
+        width: 35%;
+        height: 55%;
+      }
+  
+    .title {
+        font-size: 135%;
+      }
+  
+    .text {
+        margin: 0;
+      }
+  }
+  
+  
+  @media screen and (max-width: 600px){
+  
+    .content {
+        width: 45%;
+        height: 50%;
+      }
+  
+    .title {
+        font-size: 120%;
+      }
+  
+    .text {
+        margin: 0;
+      }
+  }
+  
